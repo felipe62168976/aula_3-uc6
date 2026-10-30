@@ -1,0 +1,35 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+/* Parágrafo */
+p {
+    font-size: 1.2rem;
+    color: #dbeafe;
+}
